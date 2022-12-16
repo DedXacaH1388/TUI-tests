@@ -1,0 +1,840 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "_deps/ftxui-build",
+					"childIndexes" : 
+					[
+						2,
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/ftxui-src",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						76
+					]
+				},
+				{
+					"build" : "_deps/ftxui-build/examples",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/ftxui-src/examples"
+				},
+				{
+					"build" : "_deps/ftxui-build/examples/component",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/ftxui-src/examples/component",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						11,
+						12,
+						13,
+						14,
+						19,
+						20,
+						22,
+						23,
+						24,
+						25,
+						26,
+						32,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						49,
+						50,
+						51,
+						52,
+						53,
+						57,
+						58,
+						59,
+						68,
+						69,
+						71,
+						75
+					]
+				},
+				{
+					"build" : "_deps/ftxui-build/examples/dom",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/ftxui-src/examples/dom",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						10,
+						15,
+						16,
+						17,
+						18,
+						21,
+						27,
+						28,
+						29,
+						30,
+						31,
+						33,
+						47,
+						48,
+						54,
+						55,
+						56,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						70,
+						72,
+						73,
+						74
+					]
+				},
+				{
+					"build" : "_deps/ftxui-build/doc",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/ftxui-src/doc",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "test-ftx",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "ftxui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "component::@b65f64d0ea8424dee96a",
+					"jsonFile" : "target-component-58b05a28556083ecbffb.json",
+					"name" : "component",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "doc::@ee2b2df008a058659852",
+					"jsonFile" : "target-doc-ebabceb8bcc72f627a7a.json",
+					"name" : "doc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dom::@b65f64d0ea8424dee96a",
+					"jsonFile" : "target-dom-6fa73944f5fe752d19c5.json",
+					"name" : "dom",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ftxui-starter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ftxui-starter-2b2a2904fedc0d283be0.json",
+					"name" : "ftxui-starter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_border::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_border-eecf17df0328823fd2d5.json",
+					"name" : "ftxui_example_border",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_border_style::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_border_style-18fb323d710e498472fa.json",
+					"name" : "ftxui_example_border_style",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_button::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_button-f02b048e47b3f458fcf2.json",
+					"name" : "ftxui_example_button",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_button_animated::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_button_animated-ee8eb1b6d207013e3930.json",
+					"name" : "ftxui_example_button_animated",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_button_in_frame::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_button_in_frame-b49d14748a9cbb3e363b.json",
+					"name" : "ftxui_example_button_in_frame",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_button_style::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_button_style-471b2c22d93d5e18327d.json",
+					"name" : "ftxui_example_button_style",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_canvas::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_canvas-e3171b05d14fb8922460.json",
+					"name" : "ftxui_example_canvas",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_canvas_animated::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_canvas_animated-95c18d8b723a17145871.json",
+					"name" : "ftxui_example_canvas_animated",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_checkbox::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_checkbox-8a6acb75993d8a73497c.json",
+					"name" : "ftxui_example_checkbox",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_checkbox_in_frame::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_checkbox_in_frame-27a006dd160e37ca7024.json",
+					"name" : "ftxui_example_checkbox_in_frame",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_collapsible::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_collapsible-e0c0366d11eb7b3b01fd.json",
+					"name" : "ftxui_example_collapsible",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_color_gallery::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_color_gallery-4ea084d8c96faf43b6f2.json",
+					"name" : "ftxui_example_color_gallery",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_color_info_palette256::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_color_info_palette256-8adca14418aa68763941.json",
+					"name" : "ftxui_example_color_info_palette256",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_color_truecolor_HSV::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_color_truecolor_HSV-9f1956c99a87089c6951.json",
+					"name" : "ftxui_example_color_truecolor_HSV",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_color_truecolor_RGB::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_color_truecolor_RGB-a592959544556b47c259.json",
+					"name" : "ftxui_example_color_truecolor_RGB",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_composition::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_composition-c658ebfb61ca61d85f38.json",
+					"name" : "ftxui_example_composition",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_custom_loop::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_custom_loop-c53390f6ed2c414e996c.json",
+					"name" : "ftxui_example_custom_loop",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_dbox::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_dbox-67cbb906734017f4779d.json",
+					"name" : "ftxui_example_dbox",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_dropdown::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_dropdown-68aa10f914c2dafbe1af.json",
+					"name" : "ftxui_example_dropdown",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_flexbox_gallery::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_flexbox_gallery-33a20b2e491bf62d560f.json",
+					"name" : "ftxui_example_flexbox_gallery",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_focus::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_focus-e72631d9b5070dba12ff.json",
+					"name" : "ftxui_example_focus",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_focus_cursor::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_focus_cursor-28ee44383b40943866e8.json",
+					"name" : "ftxui_example_focus_cursor",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_gallery::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_gallery-539e3aa1380d07c2346c.json",
+					"name" : "ftxui_example_gallery",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_gauge::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_gauge-bb3c7eadd2e26edc45d1.json",
+					"name" : "ftxui_example_gauge",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_gauge_direction::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_gauge_direction-59370da84062fcdb691e.json",
+					"name" : "ftxui_example_gauge_direction",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_graph::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_graph-1e45a2e30840955e88d1.json",
+					"name" : "ftxui_example_graph",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_gridbox::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_gridbox-d28b67dfd114b75a1ecb.json",
+					"name" : "ftxui_example_gridbox",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_hflow::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_hflow-c7ab773cc0df0d797bb6.json",
+					"name" : "ftxui_example_hflow",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_homescreen::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_homescreen-3c4915f3a4c3f279007d.json",
+					"name" : "ftxui_example_homescreen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_html_like::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_html_like-d3f63eae992a7eb32bc7.json",
+					"name" : "ftxui_example_html_like",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_input::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_input-694061c3d51eff6a8537.json",
+					"name" : "ftxui_example_input",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_maybe::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_maybe-f41f729ce10016aa06ae.json",
+					"name" : "ftxui_example_maybe",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_menu::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_menu-60e5821f6c63ee966e47.json",
+					"name" : "ftxui_example_menu",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_menu2::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_menu2-e42fd6171668bdcdf123.json",
+					"name" : "ftxui_example_menu2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_menu_entries::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_menu_entries-cd1128a7255421cd4876.json",
+					"name" : "ftxui_example_menu_entries",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_menu_entries_animated::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_menu_entries_animated-c63e1aff2bff0691ddd0.json",
+					"name" : "ftxui_example_menu_entries_animated",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_menu_in_frame::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_menu_in_frame-f25218c461e70ba11d80.json",
+					"name" : "ftxui_example_menu_in_frame",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_menu_multiple::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_menu_multiple-1d102dab8b37de606915.json",
+					"name" : "ftxui_example_menu_multiple",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_menu_style::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_menu_style-b65b2d7e089804611fd6.json",
+					"name" : "ftxui_example_menu_style",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_menu_underline_animated_gallery::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_menu_underline_animated_gallery-3069f8c06e72684a1d02.json",
+					"name" : "ftxui_example_menu_underline_animated_gallery",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_modal_dialog::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_modal_dialog-b3ac3886675b24ac3354.json",
+					"name" : "ftxui_example_modal_dialog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_modal_dialog_custom::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_modal_dialog_custom-94294ca6c7a3059bf7c1.json",
+					"name" : "ftxui_example_modal_dialog_custom",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_nested_screen::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_nested_screen-9e5c6fa8e6e5a1bec70d.json",
+					"name" : "ftxui_example_nested_screen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_package_manager::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_package_manager-3b3d54c233dffc060c7c.json",
+					"name" : "ftxui_example_package_manager",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_paragraph::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_paragraph-82ebe44715bff6a76d13.json",
+					"name" : "ftxui_example_paragraph",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_print_key_press::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_print_key_press-5f97e86953494f060d3b.json",
+					"name" : "ftxui_example_print_key_press",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_radiobox::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_radiobox-960bf3902cf7d993b8aa.json",
+					"name" : "ftxui_example_radiobox",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_radiobox_in_frame::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_radiobox_in_frame-2453736aeb7b92984fc9.json",
+					"name" : "ftxui_example_radiobox_in_frame",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_renderer::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_renderer-c8e600df3d49a3418947.json",
+					"name" : "ftxui_example_renderer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_resizable_split::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_resizable_split-50051d13bf53978028a7.json",
+					"name" : "ftxui_example_resizable_split",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_separator::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_separator-b53b7665caa7ead70080.json",
+					"name" : "ftxui_example_separator",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_separator_style::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_separator_style-be02aa4fd4541b49c0a1.json",
+					"name" : "ftxui_example_separator_style",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_size::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_size-a468bef65b901cfec679.json",
+					"name" : "ftxui_example_size",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_slider::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_slider-d74ceb02142da675aeff.json",
+					"name" : "ftxui_example_slider",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_slider_direction::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_slider_direction-f3da8409c82ebd8c9a8d.json",
+					"name" : "ftxui_example_slider_direction",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_slider_rgb::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_slider_rgb-b3e29893a7fb79b0fba7.json",
+					"name" : "ftxui_example_slider_rgb",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_spinner::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_spinner-6645e4f085094d2ba3da.json",
+					"name" : "ftxui_example_spinner",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_style_blink::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_style_blink-9474d2a8d78bdc8d468f.json",
+					"name" : "ftxui_example_style_blink",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_style_bold::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_style_bold-dcbcf7feed3256f27af4.json",
+					"name" : "ftxui_example_style_bold",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_style_color::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_style_color-cd18e339010004ab4c25.json",
+					"name" : "ftxui_example_style_color",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_style_dim::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_style_dim-d5e47da9cb44a2bccc95.json",
+					"name" : "ftxui_example_style_dim",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_style_gallery::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_style_gallery-40273331cb154c31a0fb.json",
+					"name" : "ftxui_example_style_gallery",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_style_inverted::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_style_inverted-2adf61af798e718a91ba.json",
+					"name" : "ftxui_example_style_inverted",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_style_underlined::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_style_underlined-a9f1b2bcdbdf0dad366c.json",
+					"name" : "ftxui_example_style_underlined",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_tab_horizontal::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_tab_horizontal-495a6369c0815a5f17ef.json",
+					"name" : "ftxui_example_tab_horizontal",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_tab_vertical::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_tab_vertical-e5e7f0fae69bec03aa29.json",
+					"name" : "ftxui_example_tab_vertical",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_table::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_table-9e11ce43f688b30dcb19.json",
+					"name" : "ftxui_example_table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_toggle::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_toggle-9aba145bb2d30942aa88.json",
+					"name" : "ftxui_example_toggle",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_vbox_hbox::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_vbox_hbox-8df183d923477f644312.json",
+					"name" : "ftxui_example_vbox_hbox",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_vflow::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_vflow-a29a722101dcf301596b.json",
+					"name" : "ftxui_example_vflow",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ftxui_example_window::@8bd270962809a3e028ba",
+					"jsonFile" : "target-ftxui_example_window-e8a1e09b7bae7beb11eb.json",
+					"name" : "ftxui_example_window",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ftxui_example_with_restored_io::@ae156dd4a86bb5e17491",
+					"jsonFile" : "target-ftxui_example_with_restored_io-420855313bedca92342b.json",
+					"name" : "ftxui_example_with_restored_io",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "screen::@b65f64d0ea8424dee96a",
+					"jsonFile" : "target-screen-ae23c808e57efa44664e.json",
+					"name" : "screen",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dedxacah/programming/tui/test.ftxui/build",
+		"source" : "/home/dedxacah/programming/tui/test.ftxui"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
